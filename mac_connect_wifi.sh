@@ -1,0 +1,1 @@
+while true ; networksetup -setairportnetwork en1 "PSK750" "PSKAP750" ; echo "###############################" ; networksetup -getairportnetwork en1 ; echo "###############################" ; do ping -c1 8.8.8.8 ; sleep 60 ; done
